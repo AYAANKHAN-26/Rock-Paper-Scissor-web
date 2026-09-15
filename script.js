@@ -129,8 +129,8 @@ document.querySelector('.js-zero-button').addEventListener('click',()=>{
 
       localStorage.setItem('score',JSON.stringify(score));
        updateScore();
-       document.querySelector('.js-moves').innerHTML=`You <img src="image/${option}-emoji.png" class="move-butt">
-      <img src="image/${cmove}-emoji.png" class="move-butt"> Computer`;
+       document.querySelector('.js-moves').innerHTML=`You <img src="${option}-emoji.png" class="move-butt">
+      <img src="${cmove}-emoji.png" class="move-butt"> Computer`;
 
        document.querySelector('.js-result').innerHTML=`${result}`;
         }
