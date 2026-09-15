@@ -1,0 +1,44 @@
+body{
+        background-color: black;
+        color: white;
+        font-family: Arial;
+        font-size: 10 px;
+        font-weight: bold;
+    }
+    .move-butt{
+      height: 70px;
+      border: 2px ;
+    }
+    .move-b{
+      background-color: transparent;
+      border: 3px solid  white;
+      width: 130px;
+      height: 130px;
+      border-radius: 100px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    
+    .pay{
+      margin-top: 30px;
+      font-size: 25px;
+      font-weight: bold;
+      
+      }
+  
+     .zero{
+      border: none;
+      padding: 10px ;
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      margin-right: 10px;
+     }
+     .auto-play{
+      border: none;
+      padding: 10px ;
+      background-color: white;
+      color: black;
+      cursor: pointer;
+     }
+    
